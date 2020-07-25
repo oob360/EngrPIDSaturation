@@ -9,7 +9,9 @@ The controller coefficients (kp, ki, and kd) can be modified directly by the use
 
 ## How to use the plugin
 
-To help with exploration, I've included a toggleable limiter that, by default, limits output levels to a maximum of 0dB relative to the volume knob in your DAW to avoid noise explosions.
+A reminder: The controller coefficients (kp, ki, and kd) can be modified directly by the user, which means that the user has to be careful of instabilities (ie your speakers might blow up with different combinations of kp, ki, and kd).
+
+To help with exploration and prevent speaker blowout, I've included a toggleable limiter that, by default, limits output levels to a maximum of 0dB relative to the volume knob in your DAW to avoid noise explosions.
 
 Once you find a sound you like, feel free to toggle off the limiter in order to access the full gain range of the master level slider.
 
