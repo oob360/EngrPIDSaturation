@@ -1,6 +1,6 @@
 # EngrPIDSaturation
 
-vst3 of the plugin is in the home directory. It should work with any DAW, but the plugin was specifically tested on Reaper, cakewalk, and ableton.
+vst3 of the plugin is in the home directory. It should work with any DAW, but the plugin was specifically tested on Reaper, cakewalk, and ableton. This plugin is not straightforward to use; I highly recommend reading the "how to use" section below.
 
 An asymmetrical saturation based on a PID controller.
 https://en.wikipedia.org/wiki/PID_controller
