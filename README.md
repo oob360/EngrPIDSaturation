@@ -20,7 +20,7 @@ A few rules of thumb to keep in mind while playing with the coefficients:
 * Non-zero values of Kd make the plugin much more unstable. As Kd increases, Kp becomes less stable.
 
 If the plugin stops sounding, you've probably found an unstable combination of coefficients. Here's a list of things you can try to get the plugin sounding again in ranked order:
-1. I recommend first setting Kd to zero, and decreasing the master level knob to -60, then back up. 
+1. Set Kd to zero, then decrease the master level knob to -60. Bring the master level back up. 
 2. Try lowering the level of whatever knob you were using to zero, then slowly increase it. 
 3. Press the "reset state" button. 
 4. Also, if you are concerned about instabilities, I recommend moving the knobs slowly.
