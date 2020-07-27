@@ -15,4 +15,12 @@ To help with exploration and prevent speaker blowout, I've included a toggleable
 
 Once you find a sound you like, feel free to toggle off the limiter in order to access the full gain range of the master level slider.
 
-The filter is finnicky since instabilities are a possibility. If the plugin stops sounding, I recommend first decreasing the master level knob to -60, then back up. Next, try lowering the level of whatever knob you were using to zero, then slowly increase it. If that doesn't work, press the "reset state" button. Also, if you are concerned about instabilities, I recommend moving the knobs slowly.
+A few rules of thumb to keep in mind while playing with the coefficients:
+* Start with Kd to zero and find values of Kp and Ki that you like. Ki is always quite stable at any value for any Kp and Kd. Kp is generally stable if Kd is zero. 
+* Non-zero values of Kd make the plugin much more unstable. As Kd increases, Kp becomes less stable.
+
+If the plugin stops sounding, you've probably found an unstable combination of coefficients. Here's a list of things you can try to get the plugin sounding again in ranked order:
+1. I recommend first setting Kd to zero, and decreasing the master level knob to -60, then back up. 
+2. Try lowering the level of whatever knob you were using to zero, then slowly increase it. 
+3. Press the "reset state" button. 
+4. Also, if you are concerned about instabilities, I recommend moving the knobs slowly.
