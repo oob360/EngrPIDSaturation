@@ -134,6 +134,6 @@ void EngrSaturationAudioProcessorEditor::buttonClicked(Button* button)
     }
     else if (button == &limiterButton)
     {
-        processor.limiterIsOn = !processor.limiterIsOn;
+        processor.limiterIsOn = !(button->getToggleState());
     }
 }

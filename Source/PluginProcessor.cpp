@@ -242,7 +242,7 @@ AudioProcessorValueTreeState::ParameterLayout EngrSaturationAudioProcessor::crea
     parameters.push_back(std::make_unique<AudioParameterFloat>("GAIN", "Gain", -60.0f, 30.0f, 0.0f));
     parameters.push_back(std::make_unique<AudioParameterFloat>("KP", "Kp", 0.0f, 1.0f, 0.19f));
     parameters.push_back(std::make_unique<AudioParameterFloat>("KI", "Ki", 0.0f, 40000.0f, 19500.0f));
-    parameters.push_back(std::make_unique<AudioParameterFloat>("KD", "Kd", 0.0f, 1.0f, 0.14f));
+    parameters.push_back(std::make_unique<AudioParameterFloat>("KD", "Kd", 0.0f, 1.0f, 0.0f));
     parameters.push_back(std::make_unique<AudioParameterFloat>("MASTER", "Master", -60.0f, 30.0f, 0.0f));
 
     return { parameters.begin(), parameters.end() };
